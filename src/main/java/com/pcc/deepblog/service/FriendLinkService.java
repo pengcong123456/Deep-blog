@@ -14,4 +14,11 @@ public interface FriendLinkService {
     FriendLink getFriendLinkByBlogaddress(String blogaddress);
 
     int saveFriendLink(FriendLink friendLink);
+
+    FriendLink getFriendLink(Long id);
+
+    int updateFriendLink(FriendLink friendLink);
+
+    int deleteFriendLink(Long id);
+
 }

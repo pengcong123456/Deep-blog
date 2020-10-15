@@ -32,4 +32,20 @@ public class FriendLinkServiceImpl implements FriendLinkService {
     public int saveFriendLink(FriendLink friendLink) {
         return friendLinkDao.saveFriendLink(friendLink);
     }
+
+    //通过id获取友链
+    @Override
+    public FriendLink getFriendLink(Long id) {
+        return friendLinkDao.getFriendLink(id);
+    }
+
+    @Override
+    public int updateFriendLink(FriendLink friendLink) {
+        return friendLinkDao.updateFriendLink(friendLink);
+    }
+
+    @Override
+    public int deleteFriendLink(Long id) {
+        return friendLinkDao.deleteFriendLink(id);
+    }
 }

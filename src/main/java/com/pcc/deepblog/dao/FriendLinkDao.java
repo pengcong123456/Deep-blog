@@ -28,6 +28,6 @@ public interface FriendLinkDao {
 
     int updateFriendLink(FriendLink friendLink);
 
-    void deleteFriendLink(Long id);
+    int deleteFriendLink(Long id);
 
 }

@@ -26,6 +26,6 @@ public interface PictureDao {
 
     int updatePicture(Picture picture);
 
-    void deletePicture(Long id);
+    int deletePicture(Long id);
 
 }
