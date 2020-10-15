@@ -1,0 +1,769 @@
+2020-10-13 20:39:14.280  INFO 19444 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 19444 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 20:39:14.282  INFO 19444 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 20:39:14.351  INFO 19444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 20:39:14.351  INFO 19444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 20:39:15.319  INFO 19444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 20:39:15.325  INFO 19444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 20:39:15.325  INFO 19444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 20:39:15.399  INFO 19444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 20:39:15.399  INFO 19444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1044 ms
+2020-10-13 20:39:15.785  INFO 19444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 20:39:15.835  INFO 19444 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 20:39:16.166  INFO 19444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 20:39:16.204  INFO 19444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 20:39:16.213  INFO 19444 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 2.401 seconds (JVM running for 3.342)
+2020-10-13 21:14:52.985  INFO 11340 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 11340 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:14:52.996  INFO 11340 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:14:53.065  INFO 11340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:14:53.065  INFO 11340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:14:54.266  INFO 11340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:14:54.273  INFO 11340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:14:54.273  INFO 11340 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:14:54.346  INFO 11340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:14:54.346  INFO 11340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1281 ms
+2020-10-13 21:14:54.891  INFO 11340 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:14:54.967  INFO 11340 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:14:55.357  INFO 11340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:14:55.395  INFO 11340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:14:55.404  INFO 11340 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 2.919 seconds (JVM running for 4.22)
+2020-10-13 21:15:05.818  INFO 11340 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:15:05.818  INFO 11340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:15:05.827  INFO 11340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-13 21:15:05.871  INFO 11340 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 21:15:05.995  INFO 11340 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:15:05.998  INFO 11340 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 21:15:06.004 DEBUG 11340 --- [http-nio-8080-exec-1] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:15:06.016 DEBUG 11340 --- [http-nio-8080-exec-1] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:15:06.030 DEBUG 11340 --- [http-nio-8080-exec-1] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:16:09.893 DEBUG 11340 --- [http-nio-8080-exec-6] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:16:09.894 DEBUG 11340 --- [http-nio-8080-exec-6] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:16:09.895 DEBUG 11340 --- [http-nio-8080-exec-6] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:17:00.754  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 2248 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:17:00.757  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:17:00.826  INFO 2248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:17:00.827  INFO 2248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:17:01.935  INFO 2248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:17:01.942  INFO 2248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:17:01.943  INFO 2248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:17:02.020  INFO 2248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:17:02.020  INFO 2248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1193 ms
+2020-10-13 21:17:02.556  INFO 2248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:17:02.632  INFO 2248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:17:03.007  INFO 2248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:17:03.054  INFO 2248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:17:03.064  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 2.778 seconds (JVM running for 3.911)
+2020-10-13 21:17:06.618  INFO 2248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:17:06.619  INFO 2248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:17:06.629  INFO 2248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-13 21:17:15.133  INFO 2248 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 21:17:15.271  INFO 2248 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:17:15.274  INFO 2248 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 21:17:15.280 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:17:15.292 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:17:15.303 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:19:44.940  INFO 2248 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:19:44.941  INFO 2248 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 21:19:44.948  INFO 2248 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 21:19:45.188  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 2248 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:19:45.189  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:19:45.504  INFO 2248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:19:45.505  INFO 2248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:19:45.505  INFO 2248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:19:45.534  INFO 2248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:19:45.534  INFO 2248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 342 ms
+2020-10-13 21:19:45.760  INFO 2248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:19:45.796  INFO 2248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:19:46.106  INFO 2248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:19:46.122  INFO 2248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:19:46.125  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 0.992 seconds (JVM running for 166.973)
+2020-10-13 21:19:46.127  INFO 2248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-10-13 21:20:42.619  INFO 2248 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:20:42.805  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 2248 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:20:42.805  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:20:43.098  INFO 2248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:20:43.098  INFO 2248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:20:43.098  INFO 2248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:20:43.115  INFO 2248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:20:43.115  INFO 2248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 307 ms
+2020-10-13 21:20:43.320  INFO 2248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:20:43.351  INFO 2248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:20:43.637  INFO 2248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:20:43.650  INFO 2248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:20:43.653  INFO 2248 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 0.884 seconds (JVM running for 224.5)
+2020-10-13 21:20:43.654  INFO 2248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-10-13 21:20:53.321  INFO 2248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:20:53.322  INFO 2248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:20:53.335  INFO 2248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-10-13 21:20:53.340  INFO 2248 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-10-13 21:20:53.347  INFO 2248 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:20:53.348  INFO 2248 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-10-13 21:20:53.369 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:20:53.369 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:20:53.375 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:20:53.378 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:20:53.378 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:20:53.378 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:20:53.403 ERROR 2248 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "admin/blogs": An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "session.user.avatar" (template: "admin/blogs" - line 25, col 70)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "session.user.avatar" (template: "admin/blogs" - line 25, col 70)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:264)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:85)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'avatar' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 73 common frames omitted
+
+2020-10-13 21:20:53.405 ERROR 2248 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'avatar' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:264)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:85)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-10-13 21:20:57.362 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:20:57.363 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:20:57.365 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:20:57.365 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:20:57.365 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:20:57.366 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:20:57.370 ERROR 2248 --- [http-nio-8080-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-7] Exception processing template "admin/blogs": An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "session.user.avatar" (template: "admin/blogs" - line 25, col 70)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "session.user.avatar" (template: "admin/blogs" - line 25, col 70)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:264)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:85)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'avatar' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 73 common frames omitted
+
+2020-10-13 21:20:57.370 ERROR 2248 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'avatar' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:264)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:85)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-10-13 21:21:04.768 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:21:04.768 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:21:04.769 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:21:06.872 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:06.872 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:06.873 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:06.874 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:06.874 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:06.874 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:21:09.463 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:09.464 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:09.464 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:09.465 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:09.465 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:09.466 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:21:10.176 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:10.176 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:10.177 DEBUG 2248 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:10.177 DEBUG 2248 --- [http-nio-8080-exec-2] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:10.177 DEBUG 2248 --- [http-nio-8080-exec-2] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:10.178 DEBUG 2248 --- [http-nio-8080-exec-2] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:21:10.777 DEBUG 2248 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:10.777 DEBUG 2248 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:10.778 DEBUG 2248 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:10.779 DEBUG 2248 --- [http-nio-8080-exec-10] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:10.779 DEBUG 2248 --- [http-nio-8080-exec-10] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:10.779 DEBUG 2248 --- [http-nio-8080-exec-10] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:21:11.417 DEBUG 2248 --- [http-nio-8080-exec-5] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:11.417 DEBUG 2248 --- [http-nio-8080-exec-5] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:11.418 DEBUG 2248 --- [http-nio-8080-exec-5] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:11.418 DEBUG 2248 --- [http-nio-8080-exec-5] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:11.419 DEBUG 2248 --- [http-nio-8080-exec-5] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:11.421 DEBUG 2248 --- [http-nio-8080-exec-5] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:21:11.954 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:11.955 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:11.955 DEBUG 2248 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:11.956 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:11.957 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:11.957 DEBUG 2248 --- [http-nio-8080-exec-1] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:21:12.569 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:12.569 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:12.569 DEBUG 2248 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:12.570 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:12.570 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:12.570 DEBUG 2248 --- [http-nio-8080-exec-7] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:21:13.096 DEBUG 2248 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM t_blog b LEFT OUTER JOIN t_type t ON b.type_id = t.id
+2020-10-13 21:21:13.096 DEBUG 2248 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2020-10-13 21:21:13.096 DEBUG 2248 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2020-10-13 21:21:13.097 DEBUG 2248 --- [http-nio-8080-exec-4] com.pcc.deepblog.dao.TypeDao.getAllType  : ==>  Preparing: select * from t_type
+2020-10-13 21:21:13.097 DEBUG 2248 --- [http-nio-8080-exec-4] com.pcc.deepblog.dao.TypeDao.getAllType  : ==> Parameters: 
+2020-10-13 21:21:13.097 DEBUG 2248 --- [http-nio-8080-exec-4] com.pcc.deepblog.dao.TypeDao.getAllType  : <==      Total: 0
+2020-10-13 21:24:35.566  INFO 1832 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 1832 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:24:35.570  INFO 1832 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:24:35.630  INFO 1832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:24:35.631  INFO 1832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:24:37.318  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:24:37.329  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:24:37.329  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:24:37.430  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:24:37.430  INFO 1832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1799 ms
+2020-10-13 21:24:38.193  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:24:38.433  INFO 1832 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:24:39.446  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:24:39.537  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:24:39.552  INFO 1832 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 4.656 seconds (JVM running for 6.579)
+2020-10-13 21:24:44.450  INFO 1832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:24:44.450  INFO 1832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:24:44.471  INFO 1832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-10-13 21:24:54.621  INFO 1832 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 21:24:54.914  INFO 1832 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:24:54.923  INFO 1832 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 21:24:54.975 DEBUG 1832 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:24:55.188 DEBUG 1832 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:24:55.336 DEBUG 1832 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:25:51.853  INFO 1832 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:25:51.853  INFO 1832 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 21:25:51.859  INFO 1832 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 21:25:58.565  INFO 17124 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 17124 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:25:58.568  INFO 17124 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:25:58.656  INFO 17124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:25:58.656  INFO 17124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:26:00.070  INFO 17124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:26:00.077  INFO 17124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:26:00.078  INFO 17124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:26:00.152  INFO 17124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:26:00.153  INFO 17124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1497 ms
+2020-10-13 21:26:00.712  INFO 17124 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:26:00.791  INFO 17124 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:26:01.183  INFO 17124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:26:01.222  INFO 17124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:26:01.230  INFO 17124 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.312 seconds (JVM running for 4.347)
+2020-10-13 21:26:11.601  INFO 17124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:26:11.601  INFO 17124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:26:11.611  INFO 17124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-13 21:26:15.043  INFO 17124 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 21:26:15.162  INFO 17124 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:26:15.165  INFO 17124 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 21:26:15.171 DEBUG 17124 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:26:15.182 DEBUG 17124 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:26:15.192 DEBUG 17124 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:26:29.457 DEBUG 17124 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:26:29.458 DEBUG 17124 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:26:29.459 DEBUG 17124 --- [http-nio-8080-exec-2] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:30:06.691  INFO 18540 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 18540 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:30:06.694  INFO 18540 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:30:06.751  INFO 18540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:30:06.751  INFO 18540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:30:08.022  INFO 18540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:30:08.029  INFO 18540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:30:08.030  INFO 18540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:30:08.102  INFO 18540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:30:08.103  INFO 18540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1352 ms
+2020-10-13 21:30:08.650  INFO 18540 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:30:08.730  INFO 18540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:30:09.104  INFO 18540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:30:09.140  INFO 18540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:30:09.149  INFO 18540 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.061 seconds (JVM running for 4.01)
+2020-10-13 21:30:27.539  INFO 18540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:30:27.539  INFO 18540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:30:27.550  INFO 18540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-13 21:30:27.562  WARN 18540 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-10-13 21:30:48.751  INFO 18540 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 21:30:48.875  INFO 18540 --- [http-nio-8080-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:30:48.878  INFO 18540 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 21:30:48.884 DEBUG 18540 --- [http-nio-8080-exec-8] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:30:48.896 DEBUG 18540 --- [http-nio-8080-exec-8] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:30:48.905 DEBUG 18540 --- [http-nio-8080-exec-8] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:31:53.662  INFO 652 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 652 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:31:53.667  INFO 652 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:31:53.760  INFO 652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:31:53.760  INFO 652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:31:55.117  INFO 652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:31:55.127  INFO 652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:31:55.128  INFO 652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:31:55.206  INFO 652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:31:55.207  INFO 652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1447 ms
+2020-10-13 21:31:56.028  INFO 652 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:31:56.135  INFO 652 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:31:56.621  INFO 652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:31:56.666  INFO 652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:31:56.676  INFO 652 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.558 seconds (JVM running for 4.514)
+2020-10-13 21:31:56.785  INFO 652 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:31:56.785  INFO 652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:31:56.795  INFO 652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-13 21:32:03.308  INFO 652 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 21:32:03.428  INFO 652 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:32:03.430  INFO 652 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 21:32:03.436 DEBUG 652 --- [http-nio-8080-exec-4] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:32:03.448 DEBUG 652 --- [http-nio-8080-exec-4] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:32:03.458 DEBUG 652 --- [http-nio-8080-exec-4] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:32:35.213  INFO 18688 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 18688 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:32:35.216  INFO 18688 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:32:35.313  INFO 18688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:32:35.313  INFO 18688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:32:36.782  INFO 18688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:32:36.791  INFO 18688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:32:36.792  INFO 18688 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:32:36.880  INFO 18688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:32:36.880  INFO 18688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1567 ms
+2020-10-13 21:32:37.522  INFO 18688 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:32:37.614  INFO 18688 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:32:38.067  INFO 18688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:32:38.114  INFO 18688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:32:38.126  INFO 18688 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.762 seconds (JVM running for 4.999)
+2020-10-13 21:32:43.358  INFO 18688 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:32:43.358  INFO 18688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:32:43.369  INFO 18688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-13 21:32:52.950  INFO 18688 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 21:32:53.088  INFO 18688 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 21:32:53.091  INFO 18688 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 21:32:53.097 DEBUG 18688 --- [http-nio-8080-exec-4] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 21:32:53.110 DEBUG 18688 --- [http-nio-8080-exec-4] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 21:32:53.121 DEBUG 18688 --- [http-nio-8080-exec-4] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 21:36:21.487  INFO 18688 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:36:21.488  INFO 18688 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 21:36:21.492  INFO 18688 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 21:36:26.500  INFO 1592 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 1592 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 21:36:26.503  INFO 1592 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 21:36:26.561  INFO 1592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 21:36:26.561  INFO 1592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 21:36:27.837  INFO 1592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 21:36:27.847  INFO 1592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 21:36:27.848  INFO 1592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 21:36:27.948  INFO 1592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 21:36:27.949  INFO 1592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1388 ms
+2020-10-13 21:36:28.636  INFO 1592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 21:36:28.716  INFO 1592 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 21:36:29.186  INFO 1592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 21:36:29.233  INFO 1592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 21:36:29.243  INFO 1592 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.19 seconds (JVM running for 4.467)
+2020-10-13 21:36:31.733  INFO 1592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 21:36:31.733  INFO 1592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 21:36:31.743  INFO 1592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-13 21:36:31.760  INFO 1592 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-13 21:36:31.763  INFO 1592 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classMethod='com.pcc.deepblog.controller.admin.LoginController.login', args=[]}
+2020-10-13 21:36:31.768  INFO 1592 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-13 21:36:31.768  INFO 1592 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-13 22:01:45.243  INFO 14356 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 14356 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 22:01:45.246  INFO 14356 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 22:01:45.309  INFO 14356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 22:01:45.309  INFO 14356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 22:01:46.577  INFO 14356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 22:01:46.587  INFO 14356 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 22:01:46.588  INFO 14356 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 22:01:46.692  INFO 14356 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 22:01:46.692  INFO 14356 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1383 ms
+2020-10-13 22:01:47.280  INFO 14356 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 22:01:47.359  INFO 14356 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 22:01:47.921  INFO 14356 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 22:01:47.983  INFO 14356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 22:01:47.996  INFO 14356 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.184 seconds (JVM running for 4.134)
+2020-10-13 22:02:01.001  INFO 14356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 22:02:01.001  INFO 14356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 22:02:01.010  INFO 14356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-13 22:02:01.029  INFO 14356 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-13 22:02:01.032  INFO 14356 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classMethod='com.pcc.deepblog.controller.admin.LoginController.login', args=[]}
+2020-10-13 22:02:01.039  INFO 14356 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-13 22:02:01.040  INFO 14356 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-13 22:02:04.664  INFO 14356 --- [http-nio-8080-exec-5] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-13 22:02:04.664  INFO 14356 --- [http-nio-8080-exec-5] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://localhost:8080/admin/loginback', ip='0:0:0:0:0:0:0:1', classMethod='com.pcc.deepblog.controller.admin.LoginController.loginback', args=[admin, 111111, {}, org.apache.catalina.session.StandardSessionFacade@53d665c4]}
+2020-10-13 22:02:04.681  INFO 14356 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 22:02:04.804  INFO 14356 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 22:02:04.807  INFO 14356 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 22:02:04.813 DEBUG 14356 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 22:02:04.824 DEBUG 14356 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 22:02:04.833 DEBUG 14356 --- [http-nio-8080-exec-5] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 22:02:04.838  INFO 14356 --- [http-nio-8080-exec-5] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-13 22:02:04.838  INFO 14356 --- [http-nio-8080-exec-5] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-13 22:02:08.409  INFO 14356 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-13 22:02:08.410  INFO 14356 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://localhost:8080/admin/loginback', ip='0:0:0:0:0:0:0:1', classMethod='com.pcc.deepblog.controller.admin.LoginController.loginback', args=[admin, 111111, {}, org.apache.catalina.session.StandardSessionFacade@53d665c4]}
+2020-10-13 22:02:08.412 DEBUG 14356 --- [http-nio-8080-exec-3] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 22:02:08.412 DEBUG 14356 --- [http-nio-8080-exec-3] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 22:02:08.413 DEBUG 14356 --- [http-nio-8080-exec-3] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 22:02:08.414  INFO 14356 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-13 22:02:08.414  INFO 14356 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-13 22:04:42.233  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 16584 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 22:04:42.235  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 22:04:42.317  INFO 16584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 22:04:42.318  INFO 16584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 22:04:43.495  INFO 16584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 22:04:43.502  INFO 16584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 22:04:43.503  INFO 16584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 22:04:43.593  INFO 16584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 22:04:43.593  INFO 16584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1275 ms
+2020-10-13 22:04:44.303  INFO 16584 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 22:04:44.407  INFO 16584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 22:04:44.811  INFO 16584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 22:04:44.846  INFO 16584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 22:04:44.855  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.089 seconds (JVM running for 4.157)
+2020-10-13 22:04:51.380  INFO 16584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 22:04:51.380  INFO 16584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 22:04:51.389  INFO 16584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-13 22:04:51.406  INFO 16584 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-13 22:04:51.408  INFO 16584 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classMethod='com.pcc.deepblog.controller.admin.LoginController.login', args=[]}
+2020-10-13 22:04:51.415  INFO 16584 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-13 22:04:51.415  INFO 16584 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-13 22:04:55.906  INFO 16584 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-13 22:04:55.906  INFO 16584 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://localhost:8080/admin/loginback', ip='0:0:0:0:0:0:0:1', classMethod='com.pcc.deepblog.controller.admin.LoginController.loginback', args=[admin, 111111, {}, org.apache.catalina.session.StandardSessionFacade@763a8c12]}
+2020-10-13 22:04:55.928  INFO 16584 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 22:04:56.056  INFO 16584 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-13 22:04:56.059  INFO 16584 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 22:04:56.065 DEBUG 16584 --- [http-nio-8080-exec-3] c.p.d.d.U.findByUsernameAndPassword      : ==>  Preparing: select * from t_user where username = ?;
+2020-10-13 22:04:56.077 DEBUG 16584 --- [http-nio-8080-exec-3] c.p.d.d.U.findByUsernameAndPassword      : ==> Parameters: admin(String)
+2020-10-13 22:04:56.086 DEBUG 16584 --- [http-nio-8080-exec-3] c.p.d.d.U.findByUsernameAndPassword      : <==      Total: 1
+2020-10-13 22:04:56.090  INFO 16584 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-13 22:04:56.090  INFO 16584 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-13 22:04:56.278  INFO 16584 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-13 22:04:56.278  INFO 16584 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.pcc.deepblog.controller.TestController.hhllo', args=[]}
+2020-10-13 22:04:56.281  INFO 16584 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-13 22:04:56.281  INFO 16584 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-13 22:07:13.826  INFO 16584 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 22:07:13.826  INFO 16584 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 22:07:13.832  INFO 16584 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 22:07:14.021  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 16584 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 22:07:14.022  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 22:07:14.388  INFO 16584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 22:07:14.388  INFO 16584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 22:07:14.389  INFO 16584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 22:07:14.417  INFO 16584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 22:07:14.417  INFO 16584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 393 ms
+2020-10-13 22:07:14.740  INFO 16584 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 22:07:14.790  INFO 16584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 22:07:15.179  INFO 16584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 22:07:15.200  INFO 16584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 22:07:15.203  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 1.219 seconds (JVM running for 154.505)
+2020-10-13 22:07:15.205  INFO 16584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-10-13 22:16:12.406  INFO 16584 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 22:16:12.603  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 16584 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-13 22:16:12.604  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 22:16:13.342  INFO 16584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 22:16:13.343  INFO 16584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 22:16:13.343  INFO 16584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 22:16:13.368  INFO 16584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 22:16:13.368  INFO 16584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 762 ms
+2020-10-13 22:16:13.775  INFO 16584 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 22:16:13.807  INFO 16584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-13 22:16:14.099  INFO 16584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-13 22:16:14.115  INFO 16584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 22:16:14.121  INFO 16584 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 1.574 seconds (JVM running for 693.421)
+2020-10-13 22:16:14.124  INFO 16584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
