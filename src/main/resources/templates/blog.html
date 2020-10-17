@@ -525,7 +525,7 @@
     });
 
     function postData() {
-        $("#comment-container").load(/*[[@{/comments}]]*/"", {
+        $("#comment-container").load("/comments", {
             "parentComment.id": $("[name='parentComment.id']").val(),
             "blogId": $("[name='blogId']").val(),
             "nickname": $("[name='nickname']").val(),
@@ -546,11 +546,12 @@
     }
 
     function reply(obj) {
-        var commentId = $(obj).data('commentid');
+        //回复评论
+  /*      var commentId = $(obj).data('commentid');
         var commentNickname = $(obj).data('commentnickname');
         $("[name='content']").attr("placeholder", "@" + commentNickname).focus();
         $("[name='parentComment.id']").val(commentId);
-        $(window).scrollTo($('#comment-form'), 500);
+        $(window).scrollTo($('#comment-form'), 500);*/
     }
 
 

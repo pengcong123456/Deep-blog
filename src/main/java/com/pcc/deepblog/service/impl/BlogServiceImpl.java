@@ -122,4 +122,9 @@ public class BlogServiceImpl implements BlogService {
         blogDao.getCommentCountById(id);
         return detailedBlog;
     }
+
+    @Override
+    public List<FirstPageBlog> getSearchBlog(String query) {
+        return blogDao.getSearchBlog(query);
+    }
 }
