@@ -1205,3 +1205,287 @@
 2020-10-17 10:33:17.673 DEBUG 15784 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
 2020-10-17 10:33:17.674  INFO 15784 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : =======result========
 2020-10-17 10:33:17.674  INFO 15784 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:55:50.962  INFO 16140 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 16140 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-17 13:55:50.964  INFO 16140 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-17 13:55:51.042  INFO 16140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-17 13:55:51.042  INFO 16140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-17 13:55:52.728  INFO 16140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-17 13:55:52.738  INFO 16140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-17 13:55:52.739  INFO 16140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-17 13:55:52.817  INFO 16140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-17 13:55:52.817  INFO 16140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1775 ms
+2020-10-17 13:55:53.539  INFO 16140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-17 13:55:53.635  INFO 16140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-17 13:55:54.062  INFO 16140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-17 13:55:54.100  INFO 16140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-17 13:55:54.110  INFO 16140 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.815 seconds (JVM running for 6.507)
+2020-10-17 13:56:40.523  INFO 16140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-17 13:56:40.523  INFO 16140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-17 13:56:40.532  INFO 16140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-10-17 13:56:40.561  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:56:40.563  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 13:56:40.580  INFO 16140 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-17 13:56:40.707  INFO 16140 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-17 13:56:40.710  INFO 16140 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-17 13:56:40.744 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==>  Preparing: SELECT count(0) FROM t_blog b, t_type t, t_user u WHERE b.type_id = t.id AND u.id = b.user_id
+2020-10-17 13:56:40.757 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==> Parameters: 
+2020-10-17 13:56:40.771 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : <==      Total: 1
+2020-10-17 13:56:40.773 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getFirstPageBlog       : ==>  Preparing: select b.id,b.title,b.first_picture, b.views, b.comment_count,b.update_time,b.description, t.name , u.nickname, u.avatar from t_blog b, t_type t,t_user u where b.type_id = t.id and u.id = b.user_id order by b.update_time desc LIMIT ?
+2020-10-17 13:56:40.773 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getFirstPageBlog       : ==> Parameters: 10(Integer)
+2020-10-17 13:56:40.777 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getFirstPageBlog       : <==      Total: 4
+2020-10-17 13:56:40.778 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==>  Preparing: select * from t_blog where t_blog.recommend = true order by t_blog.update_time desc limit 4;
+2020-10-17 13:56:40.778 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==> Parameters: 
+2020-10-17 13:56:40.780 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllRecommendBlog    : <==      Total: 4
+2020-10-17 13:56:40.782  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:56:40.782  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:56:41.690  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:56:41.691  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 13:56:41.692 DEBUG 16140 --- [http-nio-8080-exec-3] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 13:56:41.692 DEBUG 16140 --- [http-nio-8080-exec-3] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 13:56:41.693 DEBUG 16140 --- [http-nio-8080-exec-3] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 13:56:41.694 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 13:56:41.694 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 13:56:41.695 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 13:56:41.695 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 13:56:41.696 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 13:56:41.699 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 13:56:41.699 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 13:56:41.700 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 13:56:41.702 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 13:56:41.703  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:56:41.703  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:58:58.574  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:58:58.574  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/', ip='192.168.4.204', classMethod='com.pcc.deepblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 13:58:58.576 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==>  Preparing: SELECT count(0) FROM t_blog b, t_type t, t_user u WHERE b.type_id = t.id AND u.id = b.user_id
+2020-10-17 13:58:58.576 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==> Parameters: 
+2020-10-17 13:58:58.577 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : <==      Total: 1
+2020-10-17 13:58:58.577 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getFirstPageBlog       : ==>  Preparing: select b.id,b.title,b.first_picture, b.views, b.comment_count,b.update_time,b.description, t.name , u.nickname, u.avatar from t_blog b, t_type t,t_user u where b.type_id = t.id and u.id = b.user_id order by b.update_time desc LIMIT ?
+2020-10-17 13:58:58.577 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getFirstPageBlog       : ==> Parameters: 10(Integer)
+2020-10-17 13:58:58.580 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getFirstPageBlog       : <==      Total: 4
+2020-10-17 13:58:58.580 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==>  Preparing: select * from t_blog where t_blog.recommend = true order by t_blog.update_time desc limit 4;
+2020-10-17 13:58:58.580 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==> Parameters: 
+2020-10-17 13:58:58.582 DEBUG 16140 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getAllRecommendBlog    : <==      Total: 4
+2020-10-17 13:58:58.583  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:58:58.583  INFO 16140 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:59:00.505  INFO 16140 --- [http-nio-8080-exec-8] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:59:00.505  INFO 16140 --- [http-nio-8080-exec-8] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.204', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 13:59:00.506 DEBUG 16140 --- [http-nio-8080-exec-8] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 13:59:00.506 DEBUG 16140 --- [http-nio-8080-exec-8] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 13:59:00.506 DEBUG 16140 --- [http-nio-8080-exec-8] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 13:59:00.507 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 13:59:00.507 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 13:59:00.507 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 13:59:00.508 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 13:59:00.508 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 13:59:00.508 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 13:59:00.509 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 13:59:00.509 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 13:59:00.509 DEBUG 16140 --- [http-nio-8080-exec-8] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 13:59:00.509  INFO 16140 --- [http-nio-8080-exec-8] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:59:00.509  INFO 16140 --- [http-nio-8080-exec-8] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:59:06.307  INFO 16140 --- [http-nio-8080-exec-4] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:59:06.307  INFO 16140 --- [http-nio-8080-exec-4] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/blog/2', ip='192.168.4.204', classMethod='com.pcc.deepblog.controller.IndexController.getDetailedBlog', args=[2, {}]}
+2020-10-17 13:59:06.309 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getDetailedBlog        : ==>  Preparing: select b.id bid,b.first_picture,b.flag,b.title,b.content,b.views,b.comment_count,b.update_time,b.commentabled,b.share_statement,b.appreciation, u.nickname,u.avatar,t.name from t_blog b,t_user u, t_type t where b.user_id = u.id and b.type_id = t.id and b.id = ?
+2020-10-17 13:59:06.309 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getDetailedBlog        : ==> Parameters: 2(Long)
+2020-10-17 13:59:06.311 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getDetailedBlog        : <==      Total: 1
+2020-10-17 13:59:06.342 DEBUG 16140 --- [http-nio-8080-exec-4] c.pcc.deepblog.dao.BlogDao.updateViews   : ==>  Preparing: update t_blog b set b.views = b.views+1 where b.id = ?
+2020-10-17 13:59:06.343 DEBUG 16140 --- [http-nio-8080-exec-4] c.pcc.deepblog.dao.BlogDao.updateViews   : ==> Parameters: 2(Long)
+2020-10-17 13:59:06.345 DEBUG 16140 --- [http-nio-8080-exec-4] c.pcc.deepblog.dao.BlogDao.updateViews   : <==    Updates: 1
+2020-10-17 13:59:06.345 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getCommentCountById    : ==>  Preparing: update t_blog b set b.comment_count = ( select count(*) from t_comment c where c.blog_id = ? and b.id = ? ) WHERE b.id = ?
+2020-10-17 13:59:06.346 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getCommentCountById    : ==> Parameters: 2(Long), 2(Long), 2(Long)
+2020-10-17 13:59:06.348 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.dao.BlogDao.getCommentCountById    : <==    Updates: 1
+2020-10-17 13:59:06.349 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.d.C.findByBlogIdParentIdNull       : ==>  Preparing: select * from t_comment c where c.blog_id = ? and c.parent_comment_id = ? order by c.create_time desc
+2020-10-17 13:59:06.349 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.d.C.findByBlogIdParentIdNull       : ==> Parameters: 2(Long), -1(Long)
+2020-10-17 13:59:06.350 DEBUG 16140 --- [http-nio-8080-exec-4] c.p.d.d.C.findByBlogIdParentIdNull       : <==      Total: 0
+2020-10-17 13:59:06.351  INFO 16140 --- [http-nio-8080-exec-4] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:59:06.351  INFO 16140 --- [http-nio-8080-exec-4] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:59:07.053  INFO 16140 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:59:07.054  INFO 16140 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.204', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 13:59:07.056 DEBUG 16140 --- [http-nio-8080-exec-10] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 13:59:07.056 DEBUG 16140 --- [http-nio-8080-exec-10] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 13:59:07.057 DEBUG 16140 --- [http-nio-8080-exec-10] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 13:59:07.057 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 13:59:07.057 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 13:59:07.058 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 13:59:07.058 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 13:59:07.058 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 13:59:07.064 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 13:59:07.065 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 13:59:07.065 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 13:59:07.065 DEBUG 16140 --- [http-nio-8080-exec-10] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 13:59:07.065  INFO 16140 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:59:07.066  INFO 16140 --- [http-nio-8080-exec-10] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:59:10.424  INFO 16140 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:59:10.424  INFO 16140 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/blog/1', ip='192.168.4.204', classMethod='com.pcc.deepblog.controller.IndexController.getDetailedBlog', args=[1, {}]}
+2020-10-17 13:59:10.425 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getDetailedBlog        : ==>  Preparing: select b.id bid,b.first_picture,b.flag,b.title,b.content,b.views,b.comment_count,b.update_time,b.commentabled,b.share_statement,b.appreciation, u.nickname,u.avatar,t.name from t_blog b,t_user u, t_type t where b.user_id = u.id and b.type_id = t.id and b.id = ?
+2020-10-17 13:59:10.425 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getDetailedBlog        : ==> Parameters: 1(Long)
+2020-10-17 13:59:10.426 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getDetailedBlog        : <==      Total: 1
+2020-10-17 13:59:10.427 DEBUG 16140 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.updateViews   : ==>  Preparing: update t_blog b set b.views = b.views+1 where b.id = ?
+2020-10-17 13:59:10.428 DEBUG 16140 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.updateViews   : ==> Parameters: 1(Long)
+2020-10-17 13:59:10.430 DEBUG 16140 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.updateViews   : <==    Updates: 1
+2020-10-17 13:59:10.430 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getCommentCountById    : ==>  Preparing: update t_blog b set b.comment_count = ( select count(*) from t_comment c where c.blog_id = ? and b.id = ? ) WHERE b.id = ?
+2020-10-17 13:59:10.430 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getCommentCountById    : ==> Parameters: 1(Long), 1(Long), 1(Long)
+2020-10-17 13:59:10.432 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getCommentCountById    : <==    Updates: 1
+2020-10-17 13:59:10.432 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.d.C.findByBlogIdParentIdNull       : ==>  Preparing: select * from t_comment c where c.blog_id = ? and c.parent_comment_id = ? order by c.create_time desc
+2020-10-17 13:59:10.432 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.d.C.findByBlogIdParentIdNull       : ==> Parameters: 1(Long), -1(Long)
+2020-10-17 13:59:10.433 DEBUG 16140 --- [http-nio-8080-exec-2] c.p.d.d.C.findByBlogIdParentIdNull       : <==      Total: 0
+2020-10-17 13:59:10.433  INFO 16140 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:59:10.433  INFO 16140 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 13:59:10.926  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 13:59:10.927  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.204', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 13:59:10.929 DEBUG 16140 --- [http-nio-8080-exec-1] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 13:59:10.929 DEBUG 16140 --- [http-nio-8080-exec-1] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 13:59:10.931 DEBUG 16140 --- [http-nio-8080-exec-1] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 13:59:10.933 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 13:59:10.933 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 13:59:10.935 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 13:59:10.936 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 13:59:10.937 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 13:59:10.938 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 13:59:10.940 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 13:59:10.940 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 13:59:10.941 DEBUG 16140 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 13:59:10.942  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 13:59:10.943  INFO 16140 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:01:21.626  INFO 9464 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Starting DeepBlogApplication on pengcong with PID 9464 (D:\D\远程共享\项目练习3\deep-blog\target\classes started by 彭聪 in D:\D\远程共享\项目练习3\deep-blog)
+2020-10-17 14:01:21.629  INFO 9464 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : No active profile set, falling back to default profiles: default
+2020-10-17 14:01:21.738  INFO 9464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-17 14:01:21.738  INFO 9464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-17 14:01:23.092  INFO 9464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-17 14:01:23.099  INFO 9464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-17 14:01:23.100  INFO 9464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-17 14:01:23.179  INFO 9464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-17 14:01:23.179  INFO 9464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1440 ms
+2020-10-17 14:01:23.801  INFO 9464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-17 14:01:23.884  INFO 9464 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-17 14:01:24.265  INFO 9464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-17 14:01:24.300  INFO 9464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-17 14:01:24.308  INFO 9464 --- [restartedMain] com.pcc.deepblog.DeepBlogApplication     : Started DeepBlogApplication in 3.187 seconds (JVM running for 4.332)
+2020-10-17 14:01:33.027  INFO 9464 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-17 14:01:33.027  INFO 9464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-17 14:01:33.036  INFO 9464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-17 14:04:57.966  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:04:57.968  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 14:04:57.985  INFO 9464 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-17 14:04:58.107  INFO 9464 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-10-17 14:04:58.110  INFO 9464 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-17 14:04:58.144 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==>  Preparing: SELECT count(0) FROM t_blog b, t_type t, t_user u WHERE b.type_id = t.id AND u.id = b.user_id
+2020-10-17 14:04:58.156 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==> Parameters: 
+2020-10-17 14:04:58.166 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : <==      Total: 1
+2020-10-17 14:04:58.168 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getFirstPageBlog       : ==>  Preparing: select b.id,b.title,b.first_picture, b.views, b.comment_count,b.update_time,b.description, t.name , u.nickname, u.avatar from t_blog b, t_type t,t_user u where b.type_id = t.id and u.id = b.user_id order by b.update_time desc LIMIT ?
+2020-10-17 14:04:58.168 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getFirstPageBlog       : ==> Parameters: 10(Integer)
+2020-10-17 14:04:58.172 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getFirstPageBlog       : <==      Total: 4
+2020-10-17 14:04:58.174 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==>  Preparing: select * from t_blog where t_blog.recommend = true order by t_blog.update_time desc limit 4;
+2020-10-17 14:04:58.174 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==> Parameters: 
+2020-10-17 14:04:58.176 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getAllRecommendBlog    : <==      Total: 4
+2020-10-17 14:04:58.178  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:04:58.178  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:04:58.381  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:04:58.382  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 14:04:58.383 DEBUG 9464 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 14:04:58.387 DEBUG 9464 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 14:04:58.390 DEBUG 9464 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 14:04:58.391 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 14:04:58.391 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 14:04:58.392 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 14:04:58.394 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 14:04:58.394 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 14:04:58.395 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 14:04:58.395 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 14:04:58.396 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 14:04:58.396 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 14:04:58.397  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:04:58.397  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:05:02.700  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:05:02.701  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 14:05:02.705 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==>  Preparing: SELECT count(0) FROM t_blog b, t_type t, t_user u WHERE b.type_id = t.id AND u.id = b.user_id
+2020-10-17 14:05:02.705 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : ==> Parameters: 
+2020-10-17 14:05:02.706 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.d.BlogDao.getFirstPageBlog_COUNT   : <==      Total: 1
+2020-10-17 14:05:02.706 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getFirstPageBlog       : ==>  Preparing: select b.id,b.title,b.first_picture, b.views, b.comment_count,b.update_time,b.description, t.name , u.nickname, u.avatar from t_blog b, t_type t,t_user u where b.type_id = t.id and u.id = b.user_id order by b.update_time desc LIMIT ?
+2020-10-17 14:05:02.707 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getFirstPageBlog       : ==> Parameters: 10(Integer)
+2020-10-17 14:05:02.709 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getFirstPageBlog       : <==      Total: 4
+2020-10-17 14:05:02.710 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==>  Preparing: select * from t_blog where t_blog.recommend = true order by t_blog.update_time desc limit 4;
+2020-10-17 14:05:02.711 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllRecommendBlog    : ==> Parameters: 
+2020-10-17 14:05:02.712 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getAllRecommendBlog    : <==      Total: 4
+2020-10-17 14:05:02.713  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:05:02.713  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:05:02.826  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:05:02.826  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 14:05:02.827 DEBUG 9464 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 14:05:02.827 DEBUG 9464 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 14:05:02.828 DEBUG 9464 --- [http-nio-8080-exec-2] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 14:05:02.828 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 14:05:02.828 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 14:05:02.829 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 14:05:02.829 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 14:05:02.829 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 14:05:02.830 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 14:05:02.830 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 14:05:02.830 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 14:05:02.831 DEBUG 9464 --- [http-nio-8080-exec-2] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 14:05:02.831  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:05:02.831  INFO 9464 --- [http-nio-8080-exec-2] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:05:32.137  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:05:32.138  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/blog/2', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.getDetailedBlog', args=[2, {}]}
+2020-10-17 14:05:32.140 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getDetailedBlog        : ==>  Preparing: select b.id bid,b.first_picture,b.flag,b.title,b.content,b.views,b.comment_count,b.update_time,b.commentabled,b.share_statement,b.appreciation, u.nickname,u.avatar,t.name from t_blog b,t_user u, t_type t where b.user_id = u.id and b.type_id = t.id and b.id = ?
+2020-10-17 14:05:32.141 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getDetailedBlog        : ==> Parameters: 2(Long)
+2020-10-17 14:05:32.144 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getDetailedBlog        : <==      Total: 1
+2020-10-17 14:05:32.177 DEBUG 9464 --- [http-nio-8080-exec-1] c.pcc.deepblog.dao.BlogDao.updateViews   : ==>  Preparing: update t_blog b set b.views = b.views+1 where b.id = ?
+2020-10-17 14:05:32.177 DEBUG 9464 --- [http-nio-8080-exec-1] c.pcc.deepblog.dao.BlogDao.updateViews   : ==> Parameters: 2(Long)
+2020-10-17 14:05:32.180 DEBUG 9464 --- [http-nio-8080-exec-1] c.pcc.deepblog.dao.BlogDao.updateViews   : <==    Updates: 1
+2020-10-17 14:05:32.181 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getCommentCountById    : ==>  Preparing: update t_blog b set b.comment_count = ( select count(*) from t_comment c where c.blog_id = ? and b.id = ? ) WHERE b.id = ?
+2020-10-17 14:05:32.181 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getCommentCountById    : ==> Parameters: 2(Long), 2(Long), 2(Long)
+2020-10-17 14:05:32.183 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.dao.BlogDao.getCommentCountById    : <==    Updates: 1
+2020-10-17 14:05:32.184 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.d.C.findByBlogIdParentIdNull       : ==>  Preparing: select * from t_comment c where c.blog_id = ? and c.parent_comment_id = ? order by c.create_time desc
+2020-10-17 14:05:32.185 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.d.C.findByBlogIdParentIdNull       : ==> Parameters: 2(Long), -1(Long)
+2020-10-17 14:05:32.186 DEBUG 9464 --- [http-nio-8080-exec-1] c.p.d.d.C.findByBlogIdParentIdNull       : <==      Total: 0
+2020-10-17 14:05:32.186  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:05:32.186  INFO 9464 --- [http-nio-8080-exec-1] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:05:32.709  INFO 9464 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:05:32.709  INFO 9464 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 14:05:32.709 DEBUG 9464 --- [http-nio-8080-exec-3] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 14:05:32.710 DEBUG 9464 --- [http-nio-8080-exec-3] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 14:05:32.710 DEBUG 9464 --- [http-nio-8080-exec-3] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 14:05:32.711 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 14:05:32.711 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 14:05:32.711 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 14:05:32.712 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 14:05:32.712 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 14:05:32.712 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 14:05:32.713 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 14:05:32.713 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 14:05:32.713 DEBUG 9464 --- [http-nio-8080-exec-3] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 14:05:32.714  INFO 9464 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:05:32.714  INFO 9464 --- [http-nio-8080-exec-3] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:05:56.361  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:05:56.361  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/blog/1', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.getDetailedBlog', args=[1, {}]}
+2020-10-17 14:05:56.368 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getDetailedBlog        : ==>  Preparing: select b.id bid,b.first_picture,b.flag,b.title,b.content,b.views,b.comment_count,b.update_time,b.commentabled,b.share_statement,b.appreciation, u.nickname,u.avatar,t.name from t_blog b,t_user u, t_type t where b.user_id = u.id and b.type_id = t.id and b.id = ?
+2020-10-17 14:05:56.368 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getDetailedBlog        : ==> Parameters: 1(Long)
+2020-10-17 14:05:56.369 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getDetailedBlog        : <==      Total: 1
+2020-10-17 14:05:56.371 DEBUG 9464 --- [http-nio-8080-exec-7] c.pcc.deepblog.dao.BlogDao.updateViews   : ==>  Preparing: update t_blog b set b.views = b.views+1 where b.id = ?
+2020-10-17 14:05:56.372 DEBUG 9464 --- [http-nio-8080-exec-7] c.pcc.deepblog.dao.BlogDao.updateViews   : ==> Parameters: 1(Long)
+2020-10-17 14:05:56.373 DEBUG 9464 --- [http-nio-8080-exec-7] c.pcc.deepblog.dao.BlogDao.updateViews   : <==    Updates: 1
+2020-10-17 14:05:56.374 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getCommentCountById    : ==>  Preparing: update t_blog b set b.comment_count = ( select count(*) from t_comment c where c.blog_id = ? and b.id = ? ) WHERE b.id = ?
+2020-10-17 14:05:56.374 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getCommentCountById    : ==> Parameters: 1(Long), 1(Long), 1(Long)
+2020-10-17 14:05:56.376 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.dao.BlogDao.getCommentCountById    : <==    Updates: 1
+2020-10-17 14:05:56.377 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.d.C.findByBlogIdParentIdNull       : ==>  Preparing: select * from t_comment c where c.blog_id = ? and c.parent_comment_id = ? order by c.create_time desc
+2020-10-17 14:05:56.377 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.d.C.findByBlogIdParentIdNull       : ==> Parameters: 1(Long), -1(Long)
+2020-10-17 14:05:56.377 DEBUG 9464 --- [http-nio-8080-exec-7] c.p.d.d.C.findByBlogIdParentIdNull       : <==      Total: 0
+2020-10-17 14:05:56.377  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:05:56.378  INFO 9464 --- [http-nio-8080-exec-7] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------
+2020-10-17 14:05:56.874  INFO 9464 --- [http-nio-8080-exec-6] com.pcc.deepblog.Aop.LogAspect           : -------doBefore------
+2020-10-17 14:05:56.874  INFO 9464 --- [http-nio-8080-exec-6] com.pcc.deepblog.Aop.LogAspect           : Request : {url='http://192.168.4.54:8080/footer/blogmessage', ip='192.168.4.54', classMethod='com.pcc.deepblog.controller.IndexController.blogmessage', args=[{}]}
+2020-10-17 14:05:56.875 DEBUG 9464 --- [http-nio-8080-exec-6] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==>  Preparing: select count(*) from t_blog
+2020-10-17 14:05:56.875 DEBUG 9464 --- [http-nio-8080-exec-6] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : ==> Parameters: 
+2020-10-17 14:05:56.875 DEBUG 9464 --- [http-nio-8080-exec-6] c.pcc.deepblog.dao.BlogDao.getBlogTotal  : <==      Total: 1
+2020-10-17 14:05:56.876 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogViewTotal       : ==>  Preparing: select sum(views) from t_blog
+2020-10-17 14:05:56.876 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogViewTotal       : ==> Parameters: 
+2020-10-17 14:05:56.876 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogViewTotal       : <==      Total: 1
+2020-10-17 14:05:56.877 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==>  Preparing: select count(*) from t_comment
+2020-10-17 14:05:56.877 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogCommentTotal    : ==> Parameters: 
+2020-10-17 14:05:56.877 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogCommentTotal    : <==      Total: 1
+2020-10-17 14:05:56.877 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==>  Preparing: select count(*) from t_message
+2020-10-17 14:05:56.877 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogMessageTotal    : ==> Parameters: 
+2020-10-17 14:05:56.878 DEBUG 9464 --- [http-nio-8080-exec-6] c.p.d.dao.BlogDao.getBlogMessageTotal    : <==      Total: 1
+2020-10-17 14:05:56.878  INFO 9464 --- [http-nio-8080-exec-6] com.pcc.deepblog.Aop.LogAspect           : =======result========
+2020-10-17 14:05:56.878  INFO 9464 --- [http-nio-8080-exec-6] com.pcc.deepblog.Aop.LogAspect           : ------doAfter---------

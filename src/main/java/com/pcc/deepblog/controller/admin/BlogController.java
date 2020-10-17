@@ -62,8 +62,6 @@ public class BlogController {
         blog.setUser((User) session.getAttribute("user"));
         blog.setType(typeService.getType(blog.getType().getId()));
         blog.setTypeId(blog.getType().getId());
-        blog.setCreateTime(new Date());
-        blog.setUpdateTime(new Date());
         int i = blogService.saveBlog(blog);
         String message = "";
         if (i == 0) {

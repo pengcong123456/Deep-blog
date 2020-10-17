@@ -10,6 +10,7 @@ import org.apache.ibatis.javassist.NotFoundException;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -70,6 +71,10 @@ public class BlogServiceImpl implements BlogService {
 
     @Override
     public int saveBlog(Blog blog) {
+        blog.setCreateTime(new Date());
+        blog.setUpdateTime(new Date());
+        blog.setViews(0);
+        blog.setCommentCount(0);
         return blogDao.saveBlog(blog);
     }
 
