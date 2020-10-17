@@ -22,6 +22,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.security.PublicKey;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -61,6 +62,8 @@ public class BlogController {
         blog.setUser((User) session.getAttribute("user"));
         blog.setType(typeService.getType(blog.getType().getId()));
         blog.setTypeId(blog.getType().getId());
+        blog.setCreateTime(new Date());
+        blog.setUpdateTime(new Date());
         int i = blogService.saveBlog(blog);
         String message = "";
         if (i == 0) {

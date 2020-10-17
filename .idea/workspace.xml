@@ -2,24 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eba4807-e983-40b4-873f-c09ed127bd22" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/log/dev.log.2020-10-16.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/music1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/music2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/music3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/one.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/MyException/RunException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/MyException/RunException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/admin/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/FirstPageBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/FirstPageBlog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/RecommendBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/RecommendBlog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/deep-blog.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/MyException/RunException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/MyException/RunException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/admin/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/admin/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/FirstPageBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/FirstPageBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/RecommendBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/RecommendBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CommentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CommentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/MessageDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/MessageDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/pictures-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/pictures-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/pictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/pictures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +95,16 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1iiiyGsYtKhSe0ykHTmpK2iQwhA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -76,7 +113,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,9 +131,9 @@
       <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\static\images" />
       <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\templates\admin" />
       <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources" />
-      <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\static\images" />
       <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\java\com\pcc\deepblog" />
       <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\java\com\pcc\deepblog\entity" />
     </key>
@@ -153,7 +190,12 @@
       <workItem from="1602721126909" duration="74000" />
       <workItem from="1602722480666" duration="57000" />
       <workItem from="1602750827696" duration="3649000" />
-      <workItem from="1602761413149" duration="9376000" />
+      <workItem from="1602761413149" duration="9509000" />
+      <workItem from="1602807831436" duration="694000" />
+      <workItem from="1602810558941" duration="14000" />
+      <workItem from="1602845934842" duration="10264000" />
+      <workItem from="1602896569114" duration="13000" />
+      <workItem from="1602899911052" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="2020/10/15 首次提交">
       <created>1602751279713</created>
@@ -197,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602769201935</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2020/10/15 更改了后台的图标">
+      <created>1602770920949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602770920949</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,73 +255,85 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="2020/10/15 首次提交" />
     <MESSAGE value="2020/10/15 增加了图片修改页面和更新了友链页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/10/15 增加了图片修改页面和更新了友链页面" />
+    <MESSAGE value="2020/10/15 更改了后台的图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/15 更改了后台的图标" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602661203713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602661203713" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1602766994866">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1602851368972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602766994866" />
-    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602592408839">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602851368972" />
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602849462073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602592408839" />
-    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602769195927">
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602849462073" />
+    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602770919262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602769195927" />
+    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602770919262" />
     <state x="88" y="75" width="1720" height="840" key="DiffContextDialog" timestamp="1602751718676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="88" y="75" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602751718676" />
-    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1602761694648">
+    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1602849449018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602761694648" />
-    <state width="1877" height="566" key="GridCell.Tab.0.bottom" timestamp="1602769731436">
+    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602849449018" />
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1602900445171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
-    <state width="1877" height="566" key="GridCell.Tab.0.center" timestamp="1602769731436">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
+    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1602900445171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
-    <state width="1877" height="566" key="GridCell.Tab.0.left" timestamp="1602769731436">
+    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
+    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1602900445171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
-    <state width="1877" height="566" key="GridCell.Tab.0.right" timestamp="1602769731436">
+    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1602900445171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
-    <state width="1877" height="566" key="GridCell.Tab.1.bottom" timestamp="1602769731436">
+    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
+    <state width="1877" height="138" key="GridCell.Tab.1.bottom" timestamp="1602900445172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
-    <state width="1877" height="566" key="GridCell.Tab.1.center" timestamp="1602769731436">
+    <state width="1877" height="138" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445172" />
+    <state width="1877" height="138" key="GridCell.Tab.1.center" timestamp="1602900445171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
-    <state width="1877" height="566" key="GridCell.Tab.1.left" timestamp="1602769731436">
+    <state width="1877" height="138" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
+    <state width="1877" height="138" key="GridCell.Tab.1.left" timestamp="1602900445171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
-    <state width="1877" height="566" key="GridCell.Tab.1.right" timestamp="1602769731436">
+    <state width="1877" height="138" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
+    <state width="1877" height="138" key="GridCell.Tab.1.right" timestamp="1602900445172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="566" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602769731436" />
+    <state width="1877" height="138" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445172" />
     <state width="1877" height="164" key="GridCell.Tab.2.bottom" timestamp="1602674176030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,22 +362,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="330" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602761543550" />
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602769205952">
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602856246965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602769205952" />
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602856246965" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602762266922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602762266922" />
-    <state x="854" y="368" width="877" height="538" key="find.popup" timestamp="1602767716856">
+    <state x="854" y="368" width="877" height="538" key="find.popup" timestamp="1602900315189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="368" width="877" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602767716856" />
-    <state x="749" y="322" key="git4idea.merge.GitPullDialog" timestamp="1602762288708">
+    <state x="854" y="368" width="877" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602900315189" />
+    <state x="749" y="322" key="git4idea.merge.GitPullDialog" timestamp="1602846308514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="749" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602762288708" />
+    <state x="749" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602846308514" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602678685654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,9 +1,7 @@
 package com.pcc.deepblog.service;
 
 import com.pcc.deepblog.entity.Blog;
-import com.pcc.deepblog.queryvo.BlogQuery;
-import com.pcc.deepblog.queryvo.SearchBlog;
-import com.pcc.deepblog.queryvo.ShowBlog;
+import com.pcc.deepblog.queryvo.*;
 
 import java.util.List;
 
@@ -31,4 +29,10 @@ public interface BlogService {
     int updateBlog(ShowBlog blog);
 
     int deleteBlog(Long id);
+
+    List<FirstPageBlog> getAllFirstPageBlog();
+
+    List<RecommendBlog> getRecommendedBlog();
+
+    DetailedBlog getDetailedBlog(Long id);
 }

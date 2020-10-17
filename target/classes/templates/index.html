@@ -4,9 +4,9 @@
     <meta name="baidu-site-verification" content="U67Xy1Qfos" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONESTARの客栈</title>
+    <title>聪の客栈</title>
 
-    <link href="../static/images/favicon.ico" th:href="@{/images/me.jpg}" rel="icon" type="image/x-ico">
+    <link href="../static/images/me.jpg" th:href="@{/images/me.jpg}" rel="icon" type="image/x-ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
     <link rel="stylesheet" href="../../static/lib/editormd/css/editormd.min.css" th:href="@{/lib/editormd/css/editormd.min.css}">
     <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
@@ -18,7 +18,7 @@
 <nav id="nav" class="gird-header" style="display: none">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
-            <h2 class="ui olive header item" style="font-family: STSong">ONESTAR</h2>
+            <h2 class="ui olive header item" style="font-family: STSong">深度博客</h2>
             <!--<div class="right m-item item m-mobile-hide">-->
             <a href="#" th:href="@{/}" class="active m-item item"><i class="home icon"></i>首页</a>
                 <a href="#" th:href="@{/types/-1}" class="m-item item"><i class="clone outline icon"></i>分类</a>
@@ -32,7 +32,7 @@
             <div class="right m-item item">
                 <form name="search" action="#" th:action="@{/search}" method="post" target="_blank">
                     <div class="ui icon transparent input m-margin-tb-tiny" style="color: white">
-                        <input style="color: white" type="text" name="query" placeholder="Search...." th:value="${query}">
+                        <input style="color: white" type="text" name="query" placeholder="搜索" th:value="${query}">
                         <i onclick="document.forms['search'].submit()" class="search link icon"></i>
                     </div>
                 </form>
@@ -52,16 +52,16 @@
     <img src="../static/images/bg.jpg" th:src="@{/images/bg.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
     <div class="m-bg-class_cover" align="center">
         <div class="m-margin-top-maxx" align="center">
-            <img class="ui circular image" align="center" src="../static/images/backimg.jpg" th:src="@{/images/me.jpg}" style="width: 150px;height: 150px;">
+            <img class="ui circular image" align="center" src="../static/images/me.jpg" th:src="@{/images/me.jpg}" style="width: 150px;height: 150px;">
         </div>
-        <div class="m-font-size-title-mediul" align="center">ONESTAR</div>
+        <div class="m-font-size-title-mediul" align="center">深度博客</div>
 
         <div class="" align="center">
             <a href="#" class="ui tencent circular icon button"><i class="user icon"></i></a>
             <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
             <a href="#" class="ui qq circular icon button" data-content="1058246935" data-position="bottom center"><i class="qq icon"></i></a>
-            <a href="https://github.com/oneStarLR/" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
-            <a href="https://onestar.blog.csdn.net/" target="_blank" class="ui csdn circular icon button" data-content="点击跳转CSDN" data-position="bottom center"><i class="copyright outline icon"></i></a>
+            <a href="#" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
+            <a href="#" target="_blank" class="ui csdn circular icon button" data-content="点击跳转CSDN" data-position="bottom center"><i class="copyright outline icon"></i></a>
             <a href="#" class="ui email circular icon button" data-content="1058246935@qq.com" data-position="bottom center"><i class="envelope  icon"></i></a>
         </div>
 
@@ -70,7 +70,7 @@
             <div align="center">公众号</div>
         </div>
         <div class="ui wechat-qr flowing popup transition hidden">
-            <img src="../static/images/oneStarWechat.jpg" th:src="@{/images/oneStarWechat.jpg}" alt="" class="ui rounded image" style="width: 110px">
+            <img src="../static/images/qq.jpg" th:src="@{/images/qq.jpg}" alt="" class="ui rounded image" style="width: 110px">
             <div align="center">微信</div>
         </div>
         <div class="ui qq-qr flowing popup transition hidden">
@@ -78,12 +78,12 @@
             <div align="center">QQ</div>
         </div>
 
-        <div class="m-font-size-text" align="center">欢迎来到我的客栈，我是一颗星，夜空中最亮的那颗</div>
+        <div class="m-font-size-text" align="center">欢迎来到我的Blog，我是一颗星，夜空中最亮的那颗</div>
         <hr style="width: 40%">
-        <h5 class="m-font-size-text-init-title m-margin-top-large">“大圣，此去欲何?”</h5>
-        <h5 class="m-font-size-text-init-title">“踏南天，碎凌霄”</h5>
-        <h5 class="m-font-size-text-init-title">“若一去不回……”</h5>
-        <h5 class="m-font-size-text-init-title">“便一去不回”</h5>
+        <h5 class="m-font-size-text-init-title m-margin-top-large">“桃之夭夭，灼灼其华。”</h5>
+        <h5 class="m-font-size-text-init-title">“桃之夭夭，有芬其实。”</h5>
+        <h5 class="m-font-size-text-init-title">“桃之夭夭，其叶蓁蓁。”</h5>
+        <h5 class="m-font-size-text-init-title">“之子于归，宜其家人。”</h5>
         <div id="waypoint" class="ui m-margin-top-large" align="center">
             <a href="#" th:href="@{/}" class="ui circular icon button m-opacity-small m-item item m-mobile-hide m-index-btn" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>首页</a>
             <a href="#" th:href="@{/types/-1}" class="ui circular icon button m-opacity-small m-item item m-mobile-hide m-index-btn" th:classappend="${n==2} ? 'active'"><i class="clone outline icon"></i>分类</a>
@@ -111,9 +111,9 @@
     <div class="ui stackable m-container-mini m-opacity grid">
         <div class="m-margin-tb-tiny four wide column" th:each="blog : ${recommendedBlogs}">
             <a href="#" class="class_outer" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
-                <img src="../static/images/backimg1.jpg" th:src="@{${blog.firstPicture}}"  alt="" class="ui rounded image">
+                <img src="../static/images/music1.jpg" th:src="@{${blog.firstPicture}}" width="322px" height="181px" alt="" class="ui rounded image">
                 <span class="class_cover" >
-                     <h4 class="m-font-size-blog-text m-margin-tb-tiny" th:text="${blog.title}">大圣，此去欲何?</h4>
+                     <h4 class="m-font-size-blog-text m-margin-tb-tiny" th:text="${blog.title}">经典美文</h4>
                   </span>
             </a>
         </div>
@@ -165,7 +165,7 @@
                         <!--博文图片-->
                         <div class="five wide column">
                             <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
-                                <img src="../static/images/backimg1.jpg" th:src="@{${blog.firstPicture}}"  alt="" class="ui rounded image">
+                                <img src="../static/images/music.jpg" th:src="@{${blog.firstPicture}}"  alt="" class="ui rounded image">
                             </a>
                         </div>
 

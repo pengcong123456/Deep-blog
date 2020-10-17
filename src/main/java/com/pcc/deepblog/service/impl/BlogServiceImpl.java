@@ -1,11 +1,12 @@
 package com.pcc.deepblog.service.impl;
 
+import com.pcc.deepblog.MyException.RunException;
 import com.pcc.deepblog.dao.BlogDao;
 import com.pcc.deepblog.entity.Blog;
-import com.pcc.deepblog.queryvo.BlogQuery;
-import com.pcc.deepblog.queryvo.SearchBlog;
-import com.pcc.deepblog.queryvo.ShowBlog;
+import com.pcc.deepblog.queryvo.*;
 import com.pcc.deepblog.service.BlogService;
+import com.pcc.deepblog.util.MarkdownUtils;
+import org.apache.ibatis.javassist.NotFoundException;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -90,5 +91,30 @@ public class BlogServiceImpl implements BlogService {
     @Override
     public int deleteBlog(Long id) {
         return blogDao.deleteBlog(id);
+    }
+
+    @Override
+    public List<FirstPageBlog> getAllFirstPageBlog() {
+        return blogDao.getFirstPageBlog();
+    }
+
+    @Override
+    public List<RecommendBlog> getRecommendedBlog() {
+        return blogDao.getAllRecommendBlog();
+    }
+
+    @Override
+    public DetailedBlog getDetailedBlog(Long id) {
+        DetailedBlog detailedBlog = blogDao.getDetailedBlog(id);
+        if (detailedBlog == null) {
+            throw new RunException("该博客不存在");
+        }
+        String content = detailedBlog.getContent();
+        detailedBlog.setContent(MarkdownUtils.markdownToHtmlExtensions(content));
+//        文章访问数量自增
+        blogDao.updateViews(id);
+//        文章评论数量更新
+        blogDao.getCommentCountById(id);
+        return detailedBlog;
     }
 }
