@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eba4807-e983-40b4-873f-c09ed127bd22" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/admin/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/admin/BlogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/entity/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +171,7 @@
       <workItem from="1602914139091" duration="253000" />
       <workItem from="1602914414170" duration="867000" />
       <workItem from="1602919933595" duration="279000" />
-      <workItem from="1602920968732" duration="6843000" />
+      <workItem from="1602920968732" duration="7638000" />
     </task>
     <task id="LOCAL-00001" summary="2020/10/15 首次提交">
       <created>1602751279713</created>
@@ -262,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602920018018</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2020/10/17 评论功能">
+      <created>1602927893996</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602927893996</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +281,8 @@
     <MESSAGE value="2020/10/15 更改了后台的图标" />
     <MESSAGE value="2020/10/17 添加了博客展示的样式" />
     <MESSAGE value="2020/10/17 添加了博客保存时时间同步问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/10/17 添加了博客保存时时间同步问题" />
+    <MESSAGE value="2020/10/17 评论功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/17 评论功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="767" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602925392069">
@@ -308,10 +297,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602849462073" />
-    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602920016391">
+    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602927891307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602920016391" />
+    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602927891307" />
     <state x="88" y="75" width="1720" height="840" key="DiffContextDialog" timestamp="1602751718676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,38 +309,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602849449018" />
-    <state width="1877" height="403" key="GridCell.Tab.0.bottom" timestamp="1602926473830">
+    <state width="1877" height="403" key="GridCell.Tab.0.bottom" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473830" />
-    <state width="1877" height="403" key="GridCell.Tab.0.center" timestamp="1602926473829">
+    <state width="1877" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="403" key="GridCell.Tab.0.center" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473829" />
-    <state width="1877" height="403" key="GridCell.Tab.0.left" timestamp="1602926473829">
+    <state width="1877" height="403" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="403" key="GridCell.Tab.0.left" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473829" />
-    <state width="1877" height="403" key="GridCell.Tab.0.right" timestamp="1602926473830">
+    <state width="1877" height="403" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="403" key="GridCell.Tab.0.right" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473830" />
-    <state width="1877" height="403" key="GridCell.Tab.1.bottom" timestamp="1602926473830">
+    <state width="1877" height="403" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="403" key="GridCell.Tab.1.bottom" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473830" />
-    <state width="1877" height="403" key="GridCell.Tab.1.center" timestamp="1602926473830">
+    <state width="1877" height="403" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="403" key="GridCell.Tab.1.center" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473830" />
-    <state width="1877" height="403" key="GridCell.Tab.1.left" timestamp="1602926473830">
+    <state width="1877" height="403" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="403" key="GridCell.Tab.1.left" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473830" />
-    <state width="1877" height="403" key="GridCell.Tab.1.right" timestamp="1602926473830">
+    <state width="1877" height="403" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="403" key="GridCell.Tab.1.right" timestamp="1602928721277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602926473830" />
+    <state width="1877" height="403" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
     <state width="1877" height="164" key="GridCell.Tab.2.bottom" timestamp="1602674176030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -380,10 +369,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="330" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602761543550" />
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602920020150">
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602927903219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602920020150" />
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602927903219" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602762266922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
