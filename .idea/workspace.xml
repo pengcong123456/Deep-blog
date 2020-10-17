@@ -2,58 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eba4807-e983-40b4-873f-c09ed127bd22" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/log/dev.log.2020-10-16.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/music1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/music2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/music3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/one.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/MyException/RunException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/MyException/RunException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/admin/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/FirstPageBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/FirstPageBlog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/RecommendBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/RecommendBlog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/friendlinks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/pictures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/archives.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/friends.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/deep-blog.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/MyException/RunException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/MyException/RunException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/admin/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/controller/admin/BlogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/FirstPageBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/FirstPageBlog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/RecommendBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/RecommendBlog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CommentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CommentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/MessageDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/MessageDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/friendlinks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/pictures-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/pictures-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/pictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/pictures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/archives.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/friends.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/types.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +71,8 @@
         <option value="HTML File" />
         <option value="GeneratorMapper" />
         <option value="Interface" />
-        <option value="Thymeleaf" />
         <option value="Class" />
+        <option value="Thymeleaf" />
       </list>
     </option>
   </component>
@@ -195,7 +200,9 @@
       <workItem from="1602810558941" duration="14000" />
       <workItem from="1602845934842" duration="10264000" />
       <workItem from="1602896569114" duration="13000" />
-      <workItem from="1602899911052" duration="1010000" />
+      <workItem from="1602899911052" duration="1076000" />
+      <workItem from="1602901191123" duration="339000" />
+      <workItem from="1602901556928" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="2020/10/15 首次提交">
       <created>1602751279713</created>
@@ -246,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602770920949</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2020/10/15 更改了后台的图标">
+      <created>1602900957425</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602900957426</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,10 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602849462073" />
-    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602770919262">
+    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602900951553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602770919262" />
+    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602900951553" />
     <state x="88" y="75" width="1720" height="840" key="DiffContextDialog" timestamp="1602751718676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,38 +316,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602849449018" />
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1602900445171">
+    <state width="1877" height="538" key="GridCell.Tab.0.bottom" timestamp="1602901529569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
-    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1602900445171">
+    <state width="1877" height="538" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529569" />
+    <state width="1877" height="538" key="GridCell.Tab.0.center" timestamp="1602901529569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
-    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1602900445171">
+    <state width="1877" height="538" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529569" />
+    <state width="1877" height="538" key="GridCell.Tab.0.left" timestamp="1602901529568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
-    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1602900445171">
+    <state width="1877" height="538" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529568" />
+    <state width="1877" height="538" key="GridCell.Tab.0.right" timestamp="1602901529569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
-    <state width="1877" height="138" key="GridCell.Tab.1.bottom" timestamp="1602900445172">
+    <state width="1877" height="538" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529569" />
+    <state width="1877" height="538" key="GridCell.Tab.1.bottom" timestamp="1602901529569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445172" />
-    <state width="1877" height="138" key="GridCell.Tab.1.center" timestamp="1602900445171">
+    <state width="1877" height="538" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529569" />
+    <state width="1877" height="538" key="GridCell.Tab.1.center" timestamp="1602901529569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
-    <state width="1877" height="138" key="GridCell.Tab.1.left" timestamp="1602900445171">
+    <state width="1877" height="538" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529569" />
+    <state width="1877" height="538" key="GridCell.Tab.1.left" timestamp="1602901529569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445171" />
-    <state width="1877" height="138" key="GridCell.Tab.1.right" timestamp="1602900445172">
+    <state width="1877" height="538" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529569" />
+    <state width="1877" height="538" key="GridCell.Tab.1.right" timestamp="1602901529569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602900445172" />
+    <state width="1877" height="538" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602901529569" />
     <state width="1877" height="164" key="GridCell.Tab.2.bottom" timestamp="1602674176030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -362,18 +376,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="330" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602761543550" />
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602856246965">
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602902026940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602856246965" />
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602902026940" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602762266922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602762266922" />
-    <state x="854" y="368" width="877" height="538" key="find.popup" timestamp="1602900315189">
+    <state x="854" y="368" width="877" height="538" key="find.popup" timestamp="1602901629574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="368" width="877" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602900315189" />
+    <state x="854" y="368" width="877" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602901629574" />
     <state x="749" y="322" key="git4idea.merge.GitPullDialog" timestamp="1602846308514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
