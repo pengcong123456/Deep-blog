@@ -45,4 +45,9 @@ public class TypeServiceImpl implements TypeService {
     public int deleteType(Long id) {
         return typeDao.deleteType(id);
     }
+
+    @Override
+    public List<Type> getAllTypeAndBlog() {
+        return typeDao.getAllTypeAndBlog();
+    }
 }

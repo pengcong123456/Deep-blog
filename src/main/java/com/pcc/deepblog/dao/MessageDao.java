@@ -32,6 +32,6 @@ public interface MessageDao {
     List<Message> findByReplayId(@Param("childId") Long childId);
 
     //删除评论
-    void deleteMessage(Long id);
+    int deleteMessage(Long id);
 
 }

@@ -127,4 +127,9 @@ public class BlogServiceImpl implements BlogService {
     public List<FirstPageBlog> getSearchBlog(String query) {
         return blogDao.getSearchBlog(query);
     }
+
+    @Override
+    public List<FirstPageBlog> getByTypeId(Long typeId) {
+        return blogDao.getByTypeId(typeId);
+    }
 }

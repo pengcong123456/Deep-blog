@@ -6,10 +6,7 @@ import java.util.List;
 
 /**
  * @Description: 留言实体类
- * @Author: ONESTAR
- * @Date: Created in 9:26 2020/3/26
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
+
  */
 public class Message {
 

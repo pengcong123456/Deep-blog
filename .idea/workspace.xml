@@ -2,7 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eba4807-e983-40b4-873f-c09ed127bd22" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/AboutMeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/ArchivesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/FriendLinkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/PictureShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/controller/TypeShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/deep-blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/DeepBlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/DeepBlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/dao/MessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/dao/MessageDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/BlogQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/BlogQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/DetailedBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/DetailedBlog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/SearchBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/SearchBlog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/ShowBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/queryvo/ShowBlog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/TypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcc/deepblog/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/QQ-question.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/wechatpay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zhifupay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/archives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/friends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/DeepBlogApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/DeepBlogApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/dao/MessageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/dao/MessageDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/BlogQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/BlogQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/DetailedBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/DetailedBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/SearchBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/SearchBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/ShowBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/queryvo/ShowBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/BlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/TypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/TypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/TypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcc/deepblog/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/QQ-question.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/wechatpay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zhifupay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/archives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/friends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/types.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +91,9 @@
       <list>
         <option value="HTML File" />
         <option value="GeneratorMapper" />
+        <option value="Thymeleaf" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Thymeleaf" />
       </list>
     </option>
   </component>
@@ -93,10 +156,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.pcc.deepblog.service.impl" />
-      <recent name="com.pcc.deepblog.service" />
-      <recent name="com.pcc.deepblog.controller.admin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\static\images" />
+      <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\static\images" />
@@ -108,9 +170,10 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pcc.deepblog.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\static\images" />
-      <recent name="D:\D\远程共享\项目练习3\deep-blog\src\main\resources\templates" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pcc.deepblog.service.impl" />
+      <recent name="com.pcc.deepblog.service" />
+      <recent name="com.pcc.deepblog.controller.admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -171,7 +234,10 @@
       <workItem from="1602914139091" duration="253000" />
       <workItem from="1602914414170" duration="867000" />
       <workItem from="1602919933595" duration="279000" />
-      <workItem from="1602920968732" duration="7638000" />
+      <workItem from="1602920968732" duration="7746000" />
+      <workItem from="1603067308496" duration="1208000" />
+      <workItem from="1603093747175" duration="903000" />
+      <workItem from="1603097325984" duration="11588000" />
     </task>
     <task id="LOCAL-00001" summary="2020/10/15 首次提交">
       <created>1602751279713</created>
@@ -250,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602927893996</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2020/10/17 。。。。。">
+      <created>1602928785190</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602928785190</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,25 +355,26 @@
     <MESSAGE value="2020/10/17 添加了博客展示的样式" />
     <MESSAGE value="2020/10/17 添加了博客保存时时间同步问题" />
     <MESSAGE value="2020/10/17 评论功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/10/17 评论功能" />
+    <MESSAGE value="2020/10/17 。。。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/17 。。。。。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="767" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602925392069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602925392069" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1602922302458">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1603112334103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602922302458" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603112334103" />
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602849462073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602849462073" />
-    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602927891307">
+    <state x="562" y="113" key="CommitChangelistDialog2" timestamp="1602928783677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602927891307" />
+    <state x="562" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602928783677" />
     <state x="88" y="75" width="1720" height="840" key="DiffContextDialog" timestamp="1602751718676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -309,38 +383,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602849449018" />
-    <state width="1877" height="403" key="GridCell.Tab.0.bottom" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
-    <state width="1877" height="403" key="GridCell.Tab.0.center" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
+    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
-    <state width="1877" height="403" key="GridCell.Tab.0.left" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
+    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
-    <state width="1877" height="403" key="GridCell.Tab.0.right" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
-    <state width="1877" height="403" key="GridCell.Tab.1.bottom" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
-    <state width="1877" height="403" key="GridCell.Tab.1.center" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
+    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
-    <state width="1877" height="403" key="GridCell.Tab.1.left" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
+    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
-    <state width="1877" height="403" key="GridCell.Tab.1.right" timestamp="1602928721277">
+    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1603113642888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602928721277" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603113642888" />
     <state width="1877" height="164" key="GridCell.Tab.2.bottom" timestamp="1602674176030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -369,10 +443,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="330" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602761543550" />
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602927903219">
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2" timestamp="1602928786335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602927903219" />
+    <state x="592" y="289" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602928786334" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602762266922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,9 +463,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602678685654" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602768920971">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603110994615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602768920971" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603110994615" />
   </component>
 </project>

@@ -20,4 +20,6 @@ public interface TypeService {
     int updateType(Type type);
 
     int deleteType(Long id);
+
+    List<Type> getAllTypeAndBlog();
 }

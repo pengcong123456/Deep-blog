@@ -37,4 +37,7 @@ public interface BlogService {
     DetailedBlog getDetailedBlog(Long id);
 
     List<FirstPageBlog> getSearchBlog(String query);
+
+    //根据TypeId获取博客列表，在分类页进行的操作
+    List<FirstPageBlog> getByTypeId(Long typeId);
 }
